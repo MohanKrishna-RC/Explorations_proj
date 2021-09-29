@@ -1,0 +1,16 @@
+Building a docker:- sudo docker build -t mohan .
+
+Add docker to sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
+docker run -ti -v Music_ex/Tender:~/Music_exx/Tender mohan
+
+
+gcloud compute instances start example-instance
+gcloud compute instances stop example-instance-1
+
+activate environment in bash script
+source <absolute_path>/activate
+
+Check if you have any directories in your current path! You can check that by "ls -lrt" which lists the files and directories in your current path.
